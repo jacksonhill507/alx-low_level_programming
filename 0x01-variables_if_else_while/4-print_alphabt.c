@@ -15,7 +15,6 @@ for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
 if (alphabet == 'q')
 continue;
 
-
 if (alphabet == 'e')
 continue;
 
