@@ -15,14 +15,16 @@ for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 if (alphabet == 'q')
 continue;
 
+
 if (alphabet == 'e')
 continue;
 
-putchar(alphabet);
+putchar (alphabet);
 }
 
-putchar('\n');
+putchar ('\n');
 
 return (0);
 
 }
+
