@@ -1,4 +1,3 @@
-lines (11 sloc)  214 Bytes
 
 /**
  * _putchar - writes the character c toto stdout
@@ -10,4 +9,5 @@ lines (11 sloc)  214 Bytes
 int _putchar(char c)
 {
 return (write(1, &c, 1));
+}
 }
