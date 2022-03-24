@@ -1,15 +1,11 @@
-#include "main.h"
-
+#include "main.h
 /**
- * separator - checks and ensure that all string is capitalized
+ * separators - checks and ensure that all string is capitalized
  * @c: character to be checked
- * Return: if separator return 1. otherwise 0;
+ * Return: if separator return 1. Otherwise return 0;
  */
-
-
 int separator(char c)
 {
-
 switch (c)
 {
 case ' ':
@@ -59,3 +55,4 @@ s[count] += upper;
 count++;
 }
 return (s);
+}
