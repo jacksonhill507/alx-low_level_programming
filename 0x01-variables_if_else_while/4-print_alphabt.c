@@ -1,29 +1,30 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * 
- *  Return: Always 0 (Success/correct)
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 
 {
-char alphabet;
+char letter; /*Decarling statement*/
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+/*for letter*/
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-if (alphabet == 'q')
+if (letter == 'q') /*continue if is q*/
 continue;
 
-if (alphabet == 'e')
+else if (letter == 'e')/*continue if is q*/
 continue;
 
-putchar(alphabet);
+putchar(letter);/*print letter*/
 }
 
-putchar('\n');
+putchar('\n'); /*new line*/
 
 return (0);
 
 }
+
 
